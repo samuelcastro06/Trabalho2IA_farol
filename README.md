@@ -24,12 +24,6 @@ Fatoração:
 P(Str,Flw,R,V,B,K,Li) = P(Str) P(Flw) P(B) P(K) P(R|Str,Flw) P(V|R) P(Li|V,B,K)
 ```
 
-### Por que essa estrutura?
-- Str, Flw, B, K são independentes aos pares → nós raiz.
-- `P(V|R,Str) = P(V|R)` e `P(V|R,Flw) = P(V|R)` → o único pai de V é R.
-- `P(Li|V,R) = P(Li|V)` → R não é pai de Li; a tabela dada mostra que os pais de Li são V, B, K.
-- Causalidade física: rua e volante desgastado causam o deslizamento do dínamo.
-
 ## CPTs (itens b e c)
 
 | Variável | Distribuição |
